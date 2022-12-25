@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCOEM</title>
+    <link rel="icon" href="images/Ramdeobaba-Logo.png" type="image/png">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- ss -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- ss -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index1.html"><img src="images/Ramdeobaba-Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+
+                    <li><a href="index1.html">الراسية</a></li>
+                    <li><a href="about1.html">عن الجامة</a></li>
+                    <li><i class="fas fa-caret-down"><a href="#"> الكيات </i></a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-caret-left"><a href="course1.html" class="fa-botton"> كليه
+                                            التكنولجيةالصناعه و الطاقه </i></a>
+                                    <div class="dropdown-menu-1">
+                                        <ul>
+                                            <li><a href="course1.html" class="fa-botton">التكنولجيه المعلومات</a></li>
+                                            <li><a href="course1.html" class="fa-botton">سكه حديد</a></li>
+                                            <li><a href="course1.html" class="fa-botton">غزل و نسيج</a></li>
+                                            <li><a href="course1.html" class="fa-botton">جرارات و ادوات زراعيه</a></li>
+                                            <li><a href="course1.html" class="fa-botton">Agricultural Equipment
+                                                    Technology</a></li>
+                                        </ul>
+                                    </div>
+
+                                <li>
+                                    <i class="fas fa-caret-left"><a href="course1.html" class="fa-botton">كليه العلوم
+                                            الصحيه </i></a>
+                                    <div class="dropdown-menu-1">
+                                        <ul>
+                                            <li><a href="course1.html" class="fa-botton">تكنولوجيا القطاع الصيدلي</a>
+                                            </li>
+                                            <li><a href="course1.html" class="fa-botton">برامج تكنولوجيا قطاع
+                                                    األسنان</a></li>
+                                            <li><a href="course1.html" class="fa-botton">تكنولوجيا مساعد تمريض</a></li>
+                                            <li><a href="course1.html" class="fa-botton">ادارة السجالت الطبية</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="blog1.html">اخبار</a></li>
+                    <li><a href="contact1.html">تواصل معنا</a></li>
+                    <div class="dropdown">
+                        <script type="module"
+                            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                        <ion-icon name="globe-outline" class="icon"></ion-icon>
+                        <div class="dropdown-content">
+                            <a href="index1.html" class="ar-btn">العربية</a>
+                            <a href="index.html" class="eng-btn--">ENGLISH</a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>جامعة برج العرب التكنولجية</h1>
+            <p>
+                WRITE CERTIFICATION<br> certified Institution.
+            </p>
+            <a href="contact1.html" class="hero-btn">Visit us to know more.</a>
+            <h3>Scroll for more info</h3>
+        </div>
+        <svg class="arrows">
+            <path stroke-linecap="round" class="a1" d="M0 0 L15 15 L30 0"></path>
+            <path stroke-linecap="round" class="a2" d="M0 10 L15 25 L30 10"></path>
+            <path stroke-linecap="round" class="a3" d="M0 20 L15 35 L30 20"></path>
+        </svg>
+    </section>
+    <br>
+    <br>
+    <br>
+    <!--________________________________________________________________________________________-->
+    <div class="container">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="images/about2.jpg"></div>
+                <div class="swiper-slide"><img src="images/banner.png"></div>
+                <div class="swiper-slide"><img src="images/background.png"></div>
+                <div class="swiper-slide"><img src="images/Admissons-AllCourses.jpg"></div>
+
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+
+        </div>
+    </div>
+    <!-- ------- about ------- -->
+
+    <section class="about-us">
+        <section class="course">
+            <h1>عن الجامعه</h1>
+        </section>
+        <div class="row">
+            <!-- <div class="about-col">
+                 <img src="images/about2.jpg" alt="" width="500"> 
+            </div> -->
+            <div class="about-col">
+                <section class="about-us">
+                    <div class="row">
+                        <div class="عن-الجامعه">
+
+                            <!-- <h1>رؤية الجامعة</h1>
+                            <p>
+                                تحقيقا للاستراتيجية الوطنية للتنمية المستدامة ، تسعي جامعة برج العرب التكنولوجية للتميز
+                                محليا و
+                                دوليا في التعليم التكنولوجي لتلبية احتياجات سوق العمل و مواكبة التطورات التكنولوجية
+                                الحديثة و ربط
+                                .التعليم الجامعي بقطاعات الأعمال المتخصصة
+                            </p>
+                            <h1>رسالة الجامعة</h1>
+                            <p>
+                                تلتزم جامعة برج العرب التكنولوجية باعداد خريجين أكفاء قادرين علي الابداع و مواكبة التطور
+                                التكنولوجي
+                                باستخدام نظام التعليم القائم علي الجدارات في المجالات التكنولوجية المتعددة. كذلك تساهم
+                                الجامعة في
+                                التطوير التكنولوجي عن طريق البحث العلمي التطبيقي و خدمة المجتمع بالتعاون مع قطاعات
+                                الأعمال المتخصصة.
+                            </p> -->
+                            <p>جامعة برج العرب التكنولوجية باإلسكندرية، هى جامعة تم إنشاءها طبقًا لقانون رقم 72 لسنة
+                                2019
+                                والخاص بإنشاء الجامعات التكنولوجية في مصر وهي مؤسسات تعليمية تنتهج أسلوب التعليم
+                                والتدريب للطالب في مختلف التخصصات التي يحتاجها سوق العمل مع تطوير وبناء المهارات الالزمة
+                                إللحاق الخريج بسوق العمل مباشرة</p>
+                            <!-- <a href="#" class="hero-btn red-btn">EXPLORE NOW</a> -->
+                        </div>
+
+                    </div>
+                </section>
+
+
+    </section>
+    <!-- ------- COURSE ------- -->
+
+    <section class="course">
+        <h1>الكليات المتاحة</h1>
+        <h3>توجد كليتان في جامعة برج العرب
+            <br>كليه التكنولجية الصناعه و الطاقه و كليه العلوم الصحيه
+        </h3>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>البرامج المتاحه في كليه التكنولجيةالصناعه و الطاقه</h3>
+                <p>و تنقسم الي خمس اقسام وهم
+
+                    <br>تكنولجيا المعلومات, جرارات و ادوات زراعيه ,سكه حديد, غزل و نسيج, صناعات عزائيه
+
+                </p>
+                <a href="course1.html" class="hero-btn red-btn">EXPLORE</a>
+            </div>
+            <div class="course-col">
+                <h3>البرامج المتاحه في كليه العلوم الصحيه</h3>
+                <p>
+                    و تنقسم الي اربع اقسام و هم
+
+                    <br>تكنولوجيا قطاع األسنان, برامج تكنولوجيا مساعد تمريض,تكنولوجيا القطاع الصيدلي, .برامج ادارة
+                    السجالت الطبية (المعلومات الصحيه)
+                </p>
+                <a href="course1.html" class="hero-btn red-btn">EXPLORE</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ------- CAMPUS ------- -->
+
+    <section class="campus">
+        <h1>الحرم الجامعي</h1>
+        <h3>يمتاز الحرم الجامعي بمساحات خضراء و تصميم و الوان مريحه للعين و سهله التجاول بداخلها و ملعب لكره القدم متاح
+            للجميع</h3>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/IT_dept.jpg">
+                <div class="layer">
+                    <h3>IT Department</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/parking.png">
+                <div class="layer">
+                    <h3>playground</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/OAT1.png">
+                <div class="layer">
+                    <h3>Open Air Theatre</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------FACILITIES------- -->
+
+    <section class="facilities">
+        <h1>مرافقنا</h1>
+        <h3>تمتلك جامعة برج العرب العديد من المرافق التي تاهل و تعطي الطالب الخبره اللازمه لتجعله متميز في مجال عمله
+        </h3>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.jpg" alt="">
+                <h3>المكتبه الجامعيه</h3>
+                <p>اهلا بكم في الكتبه حيث ستجد جميع الكتب و المراجع و لتفوقك و تثقيفك</p>
+                <br>
+                <a class="hero-btn red-btn" href="#">EXPLORE</a>
+            </div>
+            <div class="facilities-col">
+                <img src="images/background.png" alt="">
+                <h3>المعامل</h3>
+                <p>جامعة برج العرب مجهزه ب افضل المعامل </p>
+                <br>
+                <a class="hero-btn red-btn" href="#">EXPLORE</a>
+            </div>
+            <div class="facilities-col">
+                <img src="images/RCOEM_TBI_logo.jpg" alt="">
+                <h3>النشطات المشتركه</h3>
+                <p>قدمت جامعة برج العرب تعاون مع مدينة الابحاث العلمية و التطبيقات التكنولوجية</p>
+                <br>
+                <a class="hero-btn red-btn" href="#">EXPLORE</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------Testimonials------- -->
+    <!--  
+<section class="testimonials">
+    <h1>What our students say</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="images/user1.jpg" alt="">
+            <div>
+                <p>
+                    الجامعة دي صح الصح و الدكانره صح الصح
+                </p>
+                <h3>Abdelrman Elsaka</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="images/user2.jpg" alt="">
+            <div>
+                <p>
+                    لقد تغيرت حياتي للافضل 
+                </p>
+                <h3>bondok</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+    <!-- --------Call to Action -------  -->
+
+    <section class="cta">
+        <h1>Enroll for our courses <br>And enquire about Admissions</h1>
+        <a href="contact1.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+
+    <!-- ------- Footer -------  -->
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>
+            RCOEM is one of the best engineering college in Nagpur, Maharashtra with AN ISO 9001:2015
+            certified Institution. NAAC ACCREDITED with 'A' Grade.
+        </p>
+        <div class="icons">
+            <a class="plain-link" href="#"><i class="fa fa-twitter"></i></a>
+            <a class="plain-link" href="https://www.facebook.com/profile.php?id=100085885038638"><i
+                    class="fa fa-facebook"></i></a>
+            <a class="plain-link" href="#"><i class="fa fa-instagram"></i></a>
+            <a class="plain-link" href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+        <h3>
+            Made by KHOLY
+            <br>
+            Copyright @ 2022
+            <a class="plain-link icons-blue" href="https://www.linkedin.com/in/abdelrhman-elkholy-972576230/"><i
+                    class="fa fa-linkedin"></i></a>
+            <a class="plain-link icons-blue" href="https://github.com/KHOLY0"><i class="fa fa-github"></i></a>
+            <a class="plain-link icons-blue" href="https://www.instagram.com/kholy_k56/"><i
+                    class="fa fa-instagram"></i></a>
+            <a class="plain-link icons-blue" href="mailto:kholy439@gmail.com"><i class="fa fa-at"></i></a>
+        </h3>
+    </section>
+
+    <!-- -------------JavaScript for toggle menu------------ -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <!---------------------Swiper-------------------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+
+
+
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            autoplay: {
+                delay: 3000,
+                dsiableoninteraction: false,
+            }
+
+        },); 
+    </script>
+
+</body>
+
+</html>
